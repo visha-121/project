@@ -1,0 +1,24 @@
+# Job Portal (React + Node + MongoDB)
+
+
+Simple job portal to post and browse jobs with user authentication (JWT).
+
+
+## Features
+- User signup/login
+- Post jobs (title, company, location, salary, description)
+- Browse jobs
+- Simple REST API
+
+
+## Quickstart (local)
+
+
+1. Copy files into a folder `job-portal`.
+2. Create a `.env` based on `server/.env.example`.
+3. Start MongoDB (locally or via Docker). Example using docker-compose: `docker-compose up -d`.
+4. Install and run server:
+```bash
+cd server
+npm install
+npm run dev
