@@ -1,0 +1,26 @@
+job-portal/
+├── README.md
+├── .gitignore
+├── docker-compose.yml
+├── server/
+│ ├── package.json
+│ ├── index.js
+│ ├── .env.example
+│ ├── models/
+│ │ ├── User.js
+│ │ └── Job.js
+│ ├── routes/
+│ │ ├── auth.js
+│ │ └── jobs.js
+│ └── middleware/
+│ └── auth.js
+└── client/
+├── package.json
+└── src/
+├── index.js
+├── App.js
+├── services/api.js
+└── components/
+├── AuthForm.js
+├── JobList.js
+└── JobForm.js
